@@ -25,6 +25,7 @@ CREATE STREAM marta_stream (
 ```
 
 #### Create table
+This table will be used to store the latest data for each train at each station.
 ```SQL
 CREATE TABLE marta_table WITH ( KEY_FORMAT = 'JSON' ) AS
 SELECT 
