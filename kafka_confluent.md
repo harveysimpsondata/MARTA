@@ -1,4 +1,4 @@
-## kSQL
+## ksqlDB
 #### Create stream
 This stream will be used to store the raw data from the MARTA API.
 ```SQL
