@@ -1,5 +1,6 @@
 ## kSQL
 #### Create stream
+This stream will be used to store the raw data from the MARTA API.
 ```SQL
 CREATE STREAM marta_stream (
     TRAIN_ID VARCHAR,
